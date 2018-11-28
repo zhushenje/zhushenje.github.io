@@ -438,10 +438,10 @@
 <p>​    $\begin{align}3^\circ当a&gt;1时，1-a&lt;0，\exists x&gt;0，使得F’(x)&lt;0，不符合题意 \end{align}$</p>
 <p>$综上所述，a\leq1$</p>
 <p>简析：根据a的不同范围，判断不等式是否成立，比较常规，但思考不直接。</p>
-<h4 id="法二：分离变量"><a href="#法二：分离变量" class="headerlink" title="法二：分离变量"></a>法二：分离变量</h4><p>$\begin{align}ln(x+1)\geq\frac{ax}{x+1}恒成立\Leftrightarrow a\leq\frac{ln(x+1)(x+1)}{x}=g(x)恒成立\Leftrightarrow a\leq g(x)_{min}\end{align}$</p>
-<h5 id="判断g-x-单增并证明（借助991函数表观察单调性）"><a href="#判断g-x-单增并证明（借助991函数表观察单调性）" class="headerlink" title="判断g(x)单增并证明（借助991函数表观察单调性）"></a>判断g(x)单增并证明（借助991函数表观察单调性）</h5><p>​    $\begin{align}g’(x)=\frac{[ln(x+1)+1]x-ln(x+1)(x+1)}{x^2}=\frac{x-ln(x+1)}{x^2}&gt;0\end{align}$</p>
-<p>​    $\because 分母x^2&gt;0\therefore 要证g’(x)&gt;0，即证h(x)=x-ln(x+1)&gt;0$</p>
-<p>​    $\begin{align}h’(x)=1-\frac{1}{x+1}=\frac{x}{x+1}&gt;0\Rightarrow h(x)单调递增\ \end{align}\Rightarrow x&gt;0时，h(x)&gt;h(0)=0$</p>
+<h4 id="法二：分离变量"><a href="#法二：分离变量" class="headerlink" title="法二：分离变量"></a>法二：分离变量</h4><pre><code>$\begin{align}ln(x+1)\geq\frac{ax}{x+1}恒成立\Leftrightarrow a\leq\frac{ln(x+1)(x+1)}{x}=g(x)恒成立\Leftrightarrow a\leq g(x)_{min}\end{align}$
+</code></pre><h5 id="判断g-x-单增并证明（借助991函数表观察单调性）"><a href="#判断g-x-单增并证明（借助991函数表观察单调性）" class="headerlink" title="判断g(x)单增并证明（借助991函数表观察单调性）"></a>判断g(x)单增并证明（借助991函数表观察单调性）</h5><p>​    $\begin{align}g’(x)=\frac{[ln(x+1)+1]x-ln(x+1)(x+1)}{x^2}=\frac{x-ln(x+1)}{x^2}&gt;0\end{align}$</p>
+<p>​    $\begin{align}\because 分母x^2&gt;0\therefore 要证g’(x)&gt;0，即证h(x)=x-ln(x+1)&gt;0\end{align}$</p>
+<p>​    $\begin{align}h’(x)=1-\frac{1}{x+1}=\frac{x}{x+1}&gt;0\Rightarrow h(x)单调递增\ \Rightarrow x&gt;0时，h(x)&gt;h(0)=0\end{align}$</p>
 <p>​    $\Rightarrow x&gt;0时，g’(x)&gt;0恒成立\Rightarrow g(x)在[0,\infty)单调递增$</p>
 <h5 id="洛必达法则求极限（可借助991CLAC功能求极限）"><a href="#洛必达法则求极限（可借助991CLAC功能求极限）" class="headerlink" title="洛必达法则求极限（可借助991CLAC功能求极限）"></a>洛必达法则求极限（可借助991CLAC功能求极限）</h5><p>​    $\begin{align}\left[\frac{ln(x+1)(x+1)}{x}\right]<em>{min}=\lim</em>{x\to0}{\frac{ln(x+1)(x+1)}{x}}\end{align}$        </p>
 <p>​    在有计算器的情况下，我们可以取x=0.0001这样的数值得到极限</p>
@@ -453,7 +453,6 @@
 <p>​    缺点：</p>
 <p>​    实际做题时，洛必达法则只能起到临门一脚的作用，且在使用之前一定要判断单调性。</p>
 <p>​    尤其对于上海考生而言，靠赋临近值就可以很快地计算出任意极限，价值就不甚明显了。</p>
-<p><img src="C:\Users\Mi\Desktop\5" alt="543080379859"></p>
 
           
         
