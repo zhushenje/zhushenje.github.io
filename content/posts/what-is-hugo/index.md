@@ -1,9 +1,9 @@
 +++
-title = "Introduction"
-date = "2019-08-03"
+title = "渐变魔方介绍"
+date = "2022-02-03"
 +++
 
-Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don't need to be a Go guru to contribute to the project's development.
+鲁比克公司是目前世界上最大的魔方制造与销售公司，名称鲁比克源自魔方的发明人，匈牙利建筑学教授Erno Rubik。这款渐变魔方是我心目中鲁比克公司最为成功的产品。通常常见的魔方都是一面一种颜色，而这款魔方采用的是3D光栅打印技术，使得魔方的贴片在经过角度倾斜之后能够变换成为另一种颜色，这使得还原这个魔方变得十分困难，因此被称作不可能魔方。
 
 <!--more-->
 
