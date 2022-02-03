@@ -3,7 +3,7 @@ date = "2016-11-05T21:05:33+05:30"
 title = "关于 About"
 +++
 
-朱申杰，一个煞笔。 
+- 🥇退役Cuber，WCA ID：[2014ZHUS01](https://www.worldcubeassociation.org/persons/2014ZHUS01)
 
 ![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true)
 
