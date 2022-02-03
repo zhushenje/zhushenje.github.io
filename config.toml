@@ -1,6 +1,6 @@
 baseurl = "https://zhushenje.github.io/"
 title = "console-demo"
-theme = "hugo-theme-stack"
+theme = "hugo-theme-console"
 languageCode = "en-us"
 
 [params]
